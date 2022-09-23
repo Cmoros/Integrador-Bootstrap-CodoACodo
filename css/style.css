@@ -24,7 +24,7 @@
     top: 0;
     left: initial;
     right: initial;
-    background-color: rgba(0,0,0, 0.5)
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 .carousel-caption__text {
@@ -33,7 +33,7 @@
     position: absolute;
     right: 10%;
     top: 45%;
-    
+
 }
 
 .carousel-control-prev,
@@ -98,8 +98,8 @@
 }
 
 .bg-blue-gradient {
-    background: rgb(28,54,67);
-    background: linear-gradient(90deg, rgba(28,54,67,1) 0%, rgba(30,83,114,1) 100%);
+    background: rgb(28, 54, 67);
+    background: linear-gradient(90deg, rgba(28, 54, 67, 1) 0%, rgba(30, 83, 114, 1) 100%);
 }
 
 .fs-7 {
