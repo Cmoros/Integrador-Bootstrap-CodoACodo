@@ -1,0 +1,121 @@
+:root {
+    --yellow: #ffc207;
+    --cyan: #16a3b7;
+    --light-green: #96c93e;
+    --green: hsl(133, 61%, 41%);
+    --dark-gray: #353a40;
+    --dark-blue: #1e5170;
+}
+
+
+/*  ---------------------- NORMAL CLASSES ------------------------- */
+.carousel {
+    height: 80vh;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    position: relative;
+
+}
+
+.carousel-caption {
+    bottom: 100%;
+    top: 0;
+    left: initial;
+    right: initial;
+    background-color: rgba(0,0,0, 0.5)
+}
+
+.carousel-caption__text {
+    width: 45%;
+    min-width: 270px;
+    position: absolute;
+    right: 10%;
+    top: 45%;
+    
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 9%;
+}
+
+.cards-container {
+    min-width: 300px;
+}
+
+.card-container {
+    min-width: 215px;
+}
+
+#floatingComment {
+    height: 100px;
+}
+
+.form-orador {
+    min-width: 300px
+}
+
+
+/* ------------------ UTILITY CLASSES ------------------ */
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+.bg-cyan {
+    background-color: var(--cyan);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.btn-green {
+    background-color: var(--green);
+}
+
+.btn.btn-green:hover {
+    background-color: hsl(133, 61%, 36%);
+}
+
+.btn.btn-green:active {
+    background-color: hsl(133, 61%, 31%);
+
+}
+
+.bg-light-green {
+    background-color: var(--light-green);
+}
+
+.bg-dark-gray {
+    background-color: var(--dark-gray);
+}
+
+.bg-dark-blue {
+    background-color: var(--dark-blue);
+}
+
+.bg-blue-gradient {
+    background: rgb(28,54,67);
+    background: linear-gradient(90deg, rgba(28,54,67,1) 0%, rgba(30,83,114,1) 100%);
+}
+
+.fs-7 {
+    font-size: 0.8rem;
+}
+
+.left-10 {
+    right: initial;
+    left: 10%
+}
+
+.bright-hover {
+    transition: all 0.2s;
+}
+
+.bright-hover:hover {
+    filter: brightness(1.5);
+    color: white;
+}
