@@ -1,3 +1,7 @@
+
+
+/* ---------------------- BASE ------------------------- */
+
 :root {
     --yellow: #ffc207;
     --cyan: #16a3b7;
@@ -7,8 +11,16 @@
     --dark-blue: #1e5170;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 
 /*  ---------------------- NORMAL CLASSES ------------------------- */
+
 .carousel {
     height: 80vh;
 }
@@ -53,8 +65,12 @@
     height: 100px;
 }
 
-.form-orador {
-    min-width: 300px
+.form {
+    min-width: 300px;
+}
+
+.card-group-container {
+    min-width: 215px
 }
 
 
@@ -72,18 +88,7 @@
     background-color: var(--green);
 }
 
-.btn-green {
-    background-color: var(--green);
-}
 
-.btn.btn-green:hover {
-    background-color: hsl(133, 61%, 36%);
-}
-
-.btn.btn-green:active {
-    background-color: hsl(133, 61%, 31%);
-
-}
 
 .bg-light-green {
     background-color: var(--light-green);
@@ -118,4 +123,36 @@
 .bright-hover:hover {
     filter: brightness(1.5);
     color: white;
+}
+
+.p-2dot5 {
+    padding: 0.75rem !important;
+}
+
+
+/* ---- BTN ---- */
+.btn-green {
+    background-color: var(--green);
+}
+
+.btn.btn-green:hover {
+    background-color: hsl(133, 61%, 36%);
+}
+
+.btn.btn-green:active {
+    background-color: hsl(133, 61%, 31%);
+
+}
+
+.btn.btn-light-green {
+    background-color: var(--light-green);
+}
+
+.btn.btn-light-green:hover {
+    background-color: hsl(133, 61%, 36%);
+}
+
+.btn.btn-light-green:active {
+    background-color: hsl(133, 61%, 31%);
+
 }
