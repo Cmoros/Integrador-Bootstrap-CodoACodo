@@ -23,6 +23,7 @@ body {
 
 .carousel {
     height: 80vh;
+    min-height: 700px;
 }
 
 .carousel-item img {
