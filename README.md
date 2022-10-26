@@ -14,7 +14,9 @@ El objetivo fue replicar una página, haciendo uso de Bootstrap, HTML y CSS.
 
 ## Sobre el integrador
 
-### Instrucciones:
+### Primera Entrega
+
+#### Instrucciones
 
 Trabajo Practico Integrador Front End
 
@@ -27,6 +29,18 @@ Las imágenes a utilizar se encuentran en un comprimido, así como la imagen fin
 La entrega será pegando el link de donde está alojado su trabajo, puede ser cualquiera de las siguientes alternativas:
 
 Netlify, ftp, servidor gratuito, github o alguna herramienta que permita alojar el trabajo.
+
+### Segunda Entrega
+
+#### Instrucciones
+
+Deberán replicar la siguiente sección (es una sección que se debe agregar al integrador front-End) al presionar en el enlace “tickets”.
+
+Deberá contener la funcionalidad en Javascript, al momento de presionar el botón “Resumen”, deberá mostrar en la sección “Total a Pagar: $”, el monto correspondiente a la cantidad de tickets a comprar con el descuento correspondiente dependiendo la categoría seleccionada, existen 3 categorías, Estudiante, Trainee, Junior
+
+![image1](https://user-images.githubusercontent.com/93099135/198098358-c37fcac3-8319-42cb-a3bd-cad8c93ca4ce.png)
+
+La entrega será pegando el link de donde está alojado su trabajo, puede ser cualquiera de las siguientes alternativas ftp, servidor gratuito o github.
 
 ---
 
